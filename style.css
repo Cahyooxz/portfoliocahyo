@@ -1,0 +1,236 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+html{
+    background-color: #0d6efd;
+}
+.teks{
+    position: relative;
+    font-size: 30px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+.judulprojek{
+    color: black;
+}
+.ftprj{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+}
+.ftprj img {
+    transition: transform 0.3s ease;
+}
+
+.ftprj .judulprojek {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.ftprj:hover img {
+    transform: scale(1.3);
+    filter: grayscale(100%) blur(0.5px);
+    
+}
+.ftprj:hover .judulprojek {
+    opacity: 1;
+    
+}
+
+.prg{
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+
+}
+.prg img {
+    transition: transform 0.3s ease;
+}
+
+.prg .judulprojek {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.8s ease;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+.judulprojek{
+    position: relative;
+    text-shadow: 2px -1px  0 #000;
+}
+
+.prg:hover img {
+
+    transform: scale(1.3);
+    filter: grayscale(100%) blur(0.5px);
+    
+}
+.prg:hover .judulprojek {
+    opacity: 1;
+    
+}
+.servicekolom1{
+    margin-right: 30px;
+}
+.servicekolom1 i{
+    color :#0d6efd;
+}
+.servicekolom1{
+    margin-right: 30px;
+    transition: 0.3s ease;
+    transform: 0.5s ;
+}
+.servicekolom1:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.servicekolom1:hover i{
+    color: #fff;
+}
+.servicekolom2 i{
+    color :#0d6efd;
+
+}
+.servicekolom2{
+    margin-right: 30px;
+    transition: 0.3s ease;
+    transform: 0.5s ;
+}
+.servicekolom2:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.servicekolom2:hover i{
+    color: #fff;
+}
+.servicekolom3 i{
+    color :#0d6efd;
+}
+.servicekolom3{
+    margin-right: 30px;
+    transition: 0.3s ease;
+    transform: 0.5s ;
+}
+.servicekolom3:hover{
+    background-color: #0d6efd;
+    color: #fff;
+    transform: translateY(-10px);
+}
+.servicekolom3 :hover i{
+    color: #fff;
+}
+.d-sec{
+    color: gray;
+}
+.navbar-nav a{
+    margin-inline-start: 20px;
+    color: #fff;
+}
+.navbar-nav a:hover{
+    transition: transform 0.5s ease;
+    color: #fff;
+    transform: scale(1.1, 1.1);
+}
+.education:hover{
+    transition: transform 0.5s;
+    color: #000;
+    transform: scale(1.1, 1.1);
+}
+.servis{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+@media only screen and (max-width : 600px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .kocak{
+        margin-top: 60px;
+    }
+    #home p,h1,h2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mywork{
+        margin-inline-start: 10px;
+    }
+    .icon{
+        margin-inline-start: 10px;
+    }
+    #about p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #about h3{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    #education{
+        padding: 20px;
+    }
+    #service{
+        padding: 20px;
+    }
+    #contact{
+        padding: 20px;
+    }
+    .servicekolom1{
+        margin-left: 30px;
+        margin-bottom: 40px;
+
+    }
+    .servicekolom2{
+        margin-left: 30px;
+        margin-bottom: 40px;
+    }
+    .servicekolom3{
+        margin-left: 30px;
+        margin-bottom: 40px;
+
+    }
+    .fotopro{
+        margin-left: 20px;
+    }
+    .ftprj img{
+        height:100px;
+    }
+    .ftprj a{
+        font-size: 12px;
+        padding: 0;
+    }
+    .prg img{
+        height:100px;
+        padding: 0;
+    }
+    .prg a{
+        font-size: 12px;
+        padding: 0;
+    }
+    .mywork{
+        width: 100px;
+    }
+    .map{
+        margin-left: 23px;
+        margin-bottom: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+}
