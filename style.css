@@ -33,6 +33,9 @@ html{
 .judulprojek{
     color: black;
 }
+.portcol{
+    margin-top: 30px;
+}
 .ftprj{
     position: relative;
     overflow: hidden;
@@ -191,7 +194,7 @@ html{
         min-height: 50vh;
     }
     .portofolio{
-        min-height: 50vh;
+        min-height: 80vh;
     }
     .about{
         min-height: 50vh;
@@ -234,7 +237,9 @@ html{
     .servicekolom3{
         margin-left: 30px;
         margin-bottom: 40px;
-
+    }
+    .portcol{
+        margin: 0px;
     }
     .fotopro{
         margin-left: 20px;
