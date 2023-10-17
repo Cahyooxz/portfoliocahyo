@@ -176,6 +176,10 @@ html{
     justify-content: center;
     align-content: center;
 }
+.card{
+    width: 400px;
+}
+
 @media only screen and (max-width : 614px){
     *{
         padding: 0;
@@ -273,6 +277,16 @@ html{
     }
     .cporto{
         margin-bottom: 0px;
+    }
+    .card{
+        width: 250px;
+    }
+    .card-img-top{
+        height:135px;
+    }
+    .educationkolom1, .educationkolom2, .educationkolom3{
+        justify-content: center;
+        margin-right: 180px;
     }
 }
 
