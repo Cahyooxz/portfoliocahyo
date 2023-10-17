@@ -24,6 +24,9 @@ html{
 .contact{
     min-height: 100vh;
 }
+.cporto{
+    margin-bottom: 100px;
+}
 .portofolio{
     min-height: 100vh;
 }
@@ -267,6 +270,9 @@ html{
         margin-bottom: 30px;
         justify-content: center;
         align-items: center;
+    }
+    .cporto{
+        margin-bottom: 0px;
     }
 }
 
