@@ -321,7 +321,7 @@ html{
         padding-right: 10px;
     }
     .mywork{
-        margin-inline-start: 10px;
+        margin-inline-start: 10px;  
     }
     .icon{
         margin-inline-start: 10px;
@@ -402,5 +402,5 @@ html{
     .educationkolom1, .educationkolom2, .educationkolom3{
         justify-content: center;
         margin-right: 180px;
-    }
+    } 
 }
